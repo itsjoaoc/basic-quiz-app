@@ -1,2 +1,2 @@
 # basic-quiz-app
-A basic quiz app using html, css, javascript and bootstrap 5
+A basic quiz app using **HTML**, **CSS**, **JavaScript**, **Bootstrap 5**

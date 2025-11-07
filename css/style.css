@@ -1,0 +1,67 @@
+/* main content styles*/
+
+/* set color palette */
+:root {
+    --nvblue: #142850;
+    /*Midnight Navy*/
+    --mtgold: #e5c062;
+    /* --mtgold: #CBB26A; inicial*/
+    /* --mtgold: #ffdc73; */
+    /*Matte Gold*/
+    --bwhite: #FFFFFF;
+    /*Basic White*/
+    --sgrey: #58687E;
+    /*Slate Grey*/
+}
+
+.question-container {
+    background-color: var(--nvblue);
+    color: var(--bwhite);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn-option {
+    background-color: var(--mtgold);
+    color: var(--nvblue);
+    border: 2px solid var(--nvblue);
+}
+
+.btn-option:hover{
+    cursor: pointer;
+    background-color: var(--sgrey);
+    color: var(--bwhite);
+    border: 2px solid var(--mtgold);
+}
+
+.quiz-area > div{
+    display: flex;
+    justify-content: center;
+}
+
+.progress-box{
+    background-color: var(--nvblue);
+    color: var(--bwhite);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.btn-action {
+    background-color: var(--sgrey);
+    color: var(--bwhite);
+    border: 2px solid var(--mtgold);
+    padding: 1.2rem;
+    font-weight: 600;
+}
+
+.btn-action:hover{
+    cursor: pointer;
+    background-color: var(--mtgold);
+    color: var(--nvblue);
+    border: 2px solid var(--nvblue);
+}

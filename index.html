@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="container-layout">
+    <header class="grid-header">
+        <!--navbar-->
+        <nav class="navbar navbar-expand-sm col-12 d-flex">
+            <div class="container-fluid flex-row flex-lg-column">
+                <h3 class="app-name navbar-brand fs-3 me-auto px-3">Quiz App</h3>
+            </div>
+        </nav>
+        <!--/navbar-->
+    </header>
+
+    <main class="grid-main">
+        <div class="container-fluid quiz-area my-4 px-3">
+            <div class="row mb-3">
+                <div class="col-8 col-sm-4 col-md-3 col-xl-2 ms-auto">
+                    <div class="progress-box" id="score">-</div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-sm-9 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
+                    <div class="question-container" id="question">-</div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-sm-9 col-md-8 col-lg-7 col-xl-6 col-xxl-5 d-flex flex-column" id="options">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-2 ms-auto d-flex justify-content-end">
+                    <button class="btn btn-lg btn-action me-4" id="restart-btn">Restart</button>
+                    <button class="btn btn-lg btn-action" id="next-btn" disabled>Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="grid-footer text-light d-flex justify-content-center align-items-end p-1">
+        <p class=" m-0">&copy; 2025 Quiz App. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
